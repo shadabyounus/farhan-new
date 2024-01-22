@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            margin: 20px;
+        }
+        .main
+
+        {
+            border:2px solid black;
+            height: 7000px;
+            background-color: aquamarine;
+          
+        }
+        .img3
+        {
+          /*in relative we can set your obj according to current window gap maintain*/ 
+          /* position: relative;
+            top: 200px;
+             */
+             /* we use absoule position when you wanna ourlaping your object in absoulte ga is not maintain*/
+             /* position: absolute;
+             top:200px; */
+             /*Fixed Position*/
+             position: fixed; /*fixed according to window fixed rehti hai  jabkay sticky just parent div tk fixed rehta hai/*/
+             
+
+            
+        }
+        .img2
+        {
+            position: sticky;
+            top:30px;
+        }
+        .second-sec
+        {
+            background-color: antiquewhite;
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+    <!---Relative Absolute Fixed Static-->
+    <div class="main">
+       <img src="../611++yBvFaL._AC_UL320_.jpg" class="img1" width="200px" height="250px" alt="image-1">
+       <img src="../611++yBvFaL._AC_UL320_.jpg"  class="img2"width="200px" height="250px" alt="image-2">
+
+       <img src="../611++yBvFaL._AC_UL320_.jpg" class="img3" width="200px" height="250px" alt="image-3">
+       <img src="../611++yBvFaL._AC_UL320_.jpg" class="img4" width="200px" height="250px" alt="image-4">
+        </div>
+    </div>
+    <div class="second-sec">
+       
+    </div>
+</body>
+</html>
